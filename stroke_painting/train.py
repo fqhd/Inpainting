@@ -85,4 +85,4 @@ print(f'Total training time: {train_time // 60} minutes')
 
 generator = generator.to('cpu')
 
-torch.save(generator, 'generator.pkl')
+torch.save(generator, 'models/stroke_generator.pkl')
